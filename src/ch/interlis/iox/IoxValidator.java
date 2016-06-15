@@ -22,22 +22,11 @@ public interface IoxValidator {
 	 * 
 	 * @return the error collector
 	 */
-	public IoxValidationEvents getErrorCollector();
+	public IoxLogging getLoggingHandler();
+	public void setLoggingHandler(IoxLogging errs);
 	/** gets the data pool.
 	 * 
 	 * @return the data pool
 	 */
 	public IoxValidationDataPool getDataPool();
-	/** gets the model specific configuration of the validation.
-	 * 
-	 * @return
-	 */
-	public IoxValidationConfig getModelValidationConfig();
-	public void clearModelValidationConfig();
-	public void addModelValidationConfig(IoxValidationConfig config);
-	/** sets the model.
-	 * 
-	 * @param td Interlis model.
-	 */
-	public void setModel(Object transferDescription);
 }
