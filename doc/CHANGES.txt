@@ -7,6 +7,10 @@ ideas/open issues
 - change names to qnames
 - rename packages (remove interlis)
 
+iox-api 1.0.4 (2021-04-23)
+-----------------------------
+- added native-image config
+
 iox-api 1.0.3 (2016-06-xx)
 -----------------------------
 - added validation interfaces

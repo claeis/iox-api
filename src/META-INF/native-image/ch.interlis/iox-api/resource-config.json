@@ -1,0 +1,5 @@
+{
+  "bundles":[
+    {"name":"ch.interlis.iox.Version"}
+  ]
+}
