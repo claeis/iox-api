@@ -180,6 +180,11 @@ public interface IomObject {
 	 * @param value new primitive value
 	 */
 	public abstract void setattrvalue(String attrName, String value);
+	/** adds a value of an attribute with a primitve type.
+	 * @param attrName name of attribute
+	 * @param value added primitive value
+	 */
+	public abstract void addattrvalue(String attrName, String value);
 	/** Removes any values for a given attribute.
 	 * Sets it to NULL, UNDEFINED.
 	 * @param attrName name of attribute
